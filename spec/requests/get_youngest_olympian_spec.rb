@@ -18,7 +18,7 @@ RSpec.describe 'Youngest Olympian', type: :request do
 
     @olympian_event_1 = create(:olympian_event, olympian: @olympian_1, event: @event_1, medal: 'Gold')
     @olympian_event_2 = create(:olympian_event, olympian: @olympian_2, event: @event_2, medal: 'Silver')
-    @olympian_event_2 = create(:olympian_event, olympian: @olympian_2, event: @event_2, medal: 'Bronze')
+    @olympian_event_3 = create(:olympian_event, olympian: @olympian_2, event: @event_2, medal: 'Bronze')
   end
 
   it 'returns the youngest Olympian with their medal count' do
