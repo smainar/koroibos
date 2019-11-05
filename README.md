@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Initial Setup](#intial-setup)
+- [Initial Setup](#initial-setup)
 - [How to Use](#how-to-use)
 - [Known Issues](#known-issues)
 - [Running Tests](#running-tests)
