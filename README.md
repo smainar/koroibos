@@ -15,13 +15,11 @@
   - [Youngest Olympian](#youngest-olympian)
   - [Oldest Olympian](#oldest-olympian)
   - [Olympian Statistics](#olympian-statistics)
-  - [Olympian Events Index Page](#olympian-events-index-page)
-  - [Olympian Events Medalists Index Page](#olympian-events-medalists-index-page)
 
 ## Introduction
 * Koroibos is a Ruby on Rails application that provides endpoints for a user to query for information about competitors in the 2016 Summer Olympics.  The application uses olympics data that is imported from a CSV file into the database.  ActiveRecord is used to query the database, based on the information needed for each API endpoint.
 
-The production app is located at https://rocky-refuge-05265.herokuapp.com/
+* The production app is located at https://rocky-refuge-05265.herokuapp.com/
 
 ## Initial Setup
 1. Clone this repository.
@@ -42,7 +40,7 @@ The production app is located at https://rocky-refuge-05265.herokuapp.com/
 * If you would desire to contribute to the project, fork the project from the master branch.  You can then make the changes you think are appropriate and submit a pull request.  Please provide a detailed explanation in the pull request of what the problem or fix is.
 
 ## Core Contributors
-This was a solo project created by Stella Mainar: https://github.com/smainar
+* This was a solo project created by Stella Mainar: https://github.com/smainar
 
 ## Schema Design
 ![alt text](public/koroibos_schema.png)
