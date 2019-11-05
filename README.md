@@ -46,7 +46,7 @@
 ![alt text](public/koroibos_schema.png)
 
 ## Tech Stack List
-* Ruby 2.4.6
+* Ruby 2.4.1
 * Ruby on Rails 5.2.3
 * PostgreSQL 11.1
 
