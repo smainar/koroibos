@@ -25,4 +25,20 @@ class Olympian < ApplicationRecord
   def self.oldest_age
     self.where(age: maximum(:age)).take
   end
+
+  def self.average_age
+    self.average(:age)
+  end
+
+  def self.average_weight_females
+    self.where(sex: 'F').average(:weight)
+  end
+
+  def self.average_weight_males
+    self.where(sex: 'M').average(:weight)
+  end
+
+  def self.total_competing_olympians
+    self.count
+  end
 end
