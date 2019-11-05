@@ -17,4 +17,8 @@ class Olympian < ApplicationRecord
   def total_medals_won
     self.olympian_events.where.not(medal: 0).count
   end
+
+  def self.youngest_age
+    self.where(age: minimum(:age)).take
+  end
 end

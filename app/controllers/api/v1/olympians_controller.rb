@@ -1,5 +1,9 @@
 class Api::V1::OlympiansController < ApplicationController
   def index
-    render json: OlympianSerializer.new(Olympian.all)
+    if params[:age] == 'youngest'
+      render json: OlympianSerializer.new(Olympian.youngest_age)
+    else
+      render json: OlympianSerializer.new(Olympian.all)
+    end
   end
 end
