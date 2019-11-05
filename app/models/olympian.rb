@@ -12,5 +12,9 @@ class Olympian < ApplicationRecord
     greater_than: 0
   }
 
-  enum sex: ['male', 'female']
+  enum sex: ['M', 'F']
+
+  def total_medals_won
+    self.olympian_events.where.not(medal: 0).count
+  end
 end
