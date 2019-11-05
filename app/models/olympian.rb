@@ -21,4 +21,8 @@ class Olympian < ApplicationRecord
   def self.youngest_age
     self.where(age: minimum(:age)).take
   end
+
+  def self.oldest_age
+    self.where(age: maximum(:age)).take
+  end
 end
